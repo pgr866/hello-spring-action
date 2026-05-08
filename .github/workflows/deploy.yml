@@ -1,8 +1,9 @@
 name: Deploy
 
 on:
-  push:
-    branches: [ main ]
+  # The push event is commented out to prevent conflicts with deploy-docker.yml
+  # push:
+  #   branches: [ main ]
   workflow_dispatch:
 
 jobs:
